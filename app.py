@@ -14,7 +14,7 @@ def allowed_file(filename):
 
 @app.route("/")
 def video_page():
-    return render_template('video.html')
+    return render_template('index.html')
 
 @app.route('/upload', methods=['GET', 'POST'])
 def upload_file():
